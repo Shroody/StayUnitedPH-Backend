@@ -18,4 +18,5 @@ class Maps extends Model
     {
         return $this->hasMany('App\Models\MapShelter', 'map_id', 'id');
     }
+
 }
